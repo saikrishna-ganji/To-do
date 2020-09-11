@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="To do list">
+    <meta http-equiv="refresh" content="30">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7554a89784.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <marquee style="color:#37474f;text-decoration:underline;font-size:24px " direction:"ltr">Make Your List..</marquee>
+
+    <div class="the-header" id="header">
+        <h1>To<span class="header-style">DoList :-)</span></h1>
+        <input type="text" id="the-input" placeholder="list your day..">
+        <span onclick="createNewElement()" class="create-button">Create..&#128536</span>    
+        <div class="search-box">
+            <input class="search-txt" type="text" name="" placeholder="search your list">
+            <a class="search-btn" href="#">
+                <i class="fas fa-paw"></i>
+            </a>
+        </div>     
+    </div>
+    <ul id="the-ul" class="border">
+        <li>eat</li> 
+        <li>study</li>
+        <li>work</li>
+        <li>sleep</li>
+        <li>repeat</li>
+    </ul>
+    
+    <script src="script.js"></script>
+
+</body>
+
+
+
+</html>
